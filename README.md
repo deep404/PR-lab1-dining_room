@@ -14,7 +14,7 @@
 ```bash
 $ # clone repository
 $ pip install -r requirements.txt # install dependecies
-$ py dining.py # start the server
+$ py main.py # start the server
 ```
 
 #### with docker
