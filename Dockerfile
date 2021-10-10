@@ -5,8 +5,7 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ADD dining.py .
+COPY . .
+EXPOSE 5000
 
-ADD foods.py .
-
-CMD ["python", "./dining.py"]
+CMD ["python", "./main.py"]
