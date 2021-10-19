@@ -1,0 +1,293 @@
+[
+  {
+    "restaurant_id": 1,
+    "name": "Restaurant 1",
+    "kitchen_port": 5001,
+    "dinning_port": 4001,
+    "menu_items": 5,
+    "cooks": [
+      {
+        "id": 1,
+        "rank": 3,
+        "proficiency": 1,
+        "name": "Roman Botezat",
+        "catch-phrase": "ugu ugu"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "proficiency": 2,
+        "name": "Dima Trubca",
+        "catch-phrase": "math math"
+      },
+      {
+        "id": 3,
+        "rank": 1,
+        "proficiency": 3,
+        "name": "Alexandru Clefos",
+        "catch-phrase": "dimok dimok"
+      }
+    ],
+    "stoves": 4,
+    "ovens": 4,
+    "menu": [
+      {
+        "id": 1,
+        "name": "pizza",
+        "preparation-time": 20,
+        "complexity": 2,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "preparation-time": 15,
+        "complexity": 1,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 3,
+        "name": "Gyros",
+        "preparation-time": 15,
+        "complexity": 3,
+        "cooking-apparatus": null
+      },
+      {
+        "id": 4,
+        "name": "Waffles",
+        "preparation-time": 10,
+        "complexity": 1,
+        "cooking-apparatus": "stove"
+      },
+      {
+        "id": 5,
+        "name": "salad",
+        "preparation-time": 10,
+        "complexity": 2,
+        "cooking-apparatus": null
+      }
+    ],
+    "rating": 3.7,
+    "tables_no": 7,
+    "waiters_no": 5
+  },
+  {
+    "restaurant_id": 2,
+    "kitchen_port": 5002,
+    "dinning_port": 4002,
+    "name": "Restaurant 2",
+    "port": "5002",
+    "menu_items": 5,
+    "cooks": [
+      {
+        "id": 1,
+        "rank": 3,
+        "proficiency": 1,
+        "name": "Moglan Mihai",
+        "catch-phrase": "cofe cofe"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "proficiency": 2,
+        "name": "Pavel Cerlat",
+        "catch-phrase": "game game"
+      },
+      {
+        "id": 3,
+        "rank": 1,
+        "proficiency": 3,
+        "name": "Cristian Cebotari",
+        "catch-phrase": "taxi taxi"
+      }
+    ],
+    "stoves": 3,
+    "ovens": 3,
+    "menu": [
+      {
+        "id": 1,
+        "name": "spaghetti",
+        "preparation-time": 20,
+        "complexity": 1,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 2,
+        "name": "burghiiir",
+        "preparation-time": 15,
+        "complexity": 2,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 3,
+        "name": "bean sauce",
+        "preparation-time": 15,
+        "complexity": 3,
+        "cooking-apparatus": null
+      },
+      {
+        "id": 4,
+        "name": "baguette",
+        "preparation-time": 10,
+        "complexity": 1,
+        "cooking-apparatus": "stove"
+      },
+      {
+        "id": 5,
+        "name": "focaccia",
+        "preparation-time": 10,
+        "complexity": 2,
+        "cooking-apparatus": null
+      }
+    ],
+    "rating": 4.5,
+    "tables_no": 7,
+    "waiters_no": 5
+  },
+  {
+    "restaurant_id": 3,
+    "kitchen_port": 5003,
+    "dinning_port": 4003,
+    "name": "Restaurant 3",
+    "port": "5003",
+    "cooks": [
+      {
+        "id": 1,
+        "rank": 3,
+        "proficiency": 1,
+        "name": "Vasile Papaluta",
+        "catch-phrase": "data science"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "proficiency": 2,
+        "name": "Eduard Balamatiuc",
+        "catch-phrase": "romanian language"
+      },
+      {
+        "id": 3,
+        "rank": 1,
+        "proficiency": 3,
+        "name": "Dima Cretu",
+        "catch-phrase": "gatcha"
+      }
+    ],
+    "stoves": 5,
+    "ovens": 5,
+    "menu_items": 5,
+    "menu": [
+      {
+        "id": 1,
+        "name": "cremini mushrooms",
+        "preparation-time": 20,
+        "complexity": 1,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 2,
+        "name": "asiago cheese",
+        "preparation-time": 15,
+        "complexity": 2,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 3,
+        "name": "guavas",
+        "preparation-time": 15,
+        "complexity": 3,
+        "cooking-apparatus": null
+      },
+      {
+        "id": 4,
+        "name": "squid",
+        "preparation-time": 10,
+        "complexity": 1,
+        "cooking-apparatus": "stove"
+      },
+      {
+        "id": 5,
+        "name": "spearmint",
+        "preparation-time": 10,
+        "complexity": 2,
+        "cooking-apparatus": null
+      }
+    ],
+    "rating": 2.7,
+    "tables_no": 7,
+    "waiters_no": 5
+  },
+  {
+    "restaurant_id": 4,
+    "kitchen_port": 5004,
+    "dinning_port": 4004,
+    "name": "Restaurant 4",
+    "port": "5004",
+    "cooks": [
+      {
+        "id": 1,
+        "rank": 3,
+        "proficiency": 3,
+        "name": "Bogdan Piciriga",
+        "catch-phrase": "camin boy"
+      },
+      {
+        "id": 2,
+        "rank": 2,
+        "proficiency": 3,
+        "name": "Puscas Dumitru",
+        "catch-phrase": "dota dota"
+      },
+      {
+        "id": 3,
+        "rank": 1,
+        "proficiency": 3,
+        "name": "Alexandr Vdovicenco",
+        "catch-phrase": "I am the god here"
+      }
+    ],
+    "stoves": 2,
+    "ovens": 5,
+    "menu_items": 5,
+    "menu": [
+      {
+        "id": 1,
+        "name": "brunoise",
+        "preparation-time": 20,
+        "complexity": 1,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 2,
+        "name": "horseradish",
+        "preparation-time": 15,
+        "complexity": 2,
+        "cooking-apparatus": "oven"
+      },
+      {
+        "id": 3,
+        "name": "maple syrup",
+        "preparation-time": 15,
+        "complexity": 3,
+        "cooking-apparatus": null
+      },
+      {
+        "id": 4,
+        "name": "brown rice",
+        "preparation-time": 10,
+        "complexity": 1,
+        "cooking-apparatus": "stove"
+      },
+      {
+        "id": 5,
+        "name": "parsley",
+        "preparation-time": 10,
+        "complexity": 2,
+        "cooking-apparatus": null
+      }
+    ],
+    "rating": 4.9,
+    "tables_no": 7,
+    "waiters_no": 5
+  }
+]
