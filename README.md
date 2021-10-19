@@ -9,15 +9,9 @@
 > Moglan Mihai
 > 
 
+More detailed README will be added later!
+
 #### Run
-
-```bash
-$ # clone repository
-$ pip install -r requirements.txt # install dependecies
-$ py main.py # start the server
-```
-
-#### with docker
 
 ```bash
 $ docker build -t dining . # create kitchen image
